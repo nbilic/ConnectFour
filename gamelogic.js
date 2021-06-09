@@ -25,7 +25,7 @@ class GameLogic {
     //Stvaramo 2 objekta klase Player
     createPlayers() {
         this.players[0] = new Player('RED','./RedGlow.cur');
-        this.players[1] = new Player('BLUE','/BlueGlow.cur');
+        this.players[1] = new Player('BLUE','./BlueGlow.cur');
     }
 
 
