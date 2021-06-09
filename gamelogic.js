@@ -16,7 +16,7 @@ class GameLogic {
         let row = [];
         for (let i = 0; i < 6; i++) {
             for (let j = 0; j < 7; j++)
-                row.push(new Tile(this.w / 7, this.h / 6, j * (this.w / 7), i * this.h / 6, i, j));
+                row.push(new Tile(this.w / 7, this.h / 6, j * (this.w / 7), i * this.h / 6));
             this.Tiles.push(row);
             row = [];
         }
