@@ -1,5 +1,5 @@
 class Tile{
-    constructor(w,h,x,y,i,j){
+    constructor(w,h,x,y){
 
         //Velicina i pozicija pojedinacnog Tile-a
         this.w = w;
